@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Carter+One&family=Courgette&family=Geostar&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;600;700&family=Kalam:wght@300;400;700&family=Karla:wght@200;600;800&family=Lilita+One&family=Luckiest+Guy&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Mogra&family=Noto+Sans:wght@100;200;300;400;500;600;700;900&family=Orbitron:wght@400;600;900&family=Pacifico&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,400;0,600;1,500;1,700&family=Roboto:wght@100;300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <div class="container">
+          <div class="container-tittle">
+            <h1 class="title">Markdown Editor</h1>
+            <p class="button-maximize" id="btn-editor">❇</p>
+          </div>
+          <textarea name="textArea" id="editor" cols="50" rows="10" placeholder="Here you can start to edit ..."></textarea>
+        </div>
+      </header>
+
+      <main>
+        <div class="container-2">
+          <div class="container-tittle">
+            <h1 class="title">Previewer</h1>
+            <p class="button-maximize" id="btn-preview">❇</p>
+          </div>
+          <div id="preview"></div>
+        </div>
+      </main>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

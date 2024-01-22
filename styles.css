@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background-color: rgb(201, 197, 197);
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans';
+}
+header {
+  width: 100%;
+  padding: 1rem;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 4px black;
+}
+.container-2 {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 4px black;
+}
+.container-tittle {
+  display: flex;
+  background-color: rgb(234, 121, 121);
+  justify-content: space-between;
+  border: none;
+}
+.title,
+.button-maximize {
+  color: white;
+  margin: 0;
+  font-size: 25px;
+  padding: 15px 15px;
+}
+.button-maximize:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+#editor,
+#preview {
+  width: 100%;
+  background-color: rgb(249, 248, 248);
+  resize: vertical;
+  min-height: 250px;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+img {
+width: 100%;
+}
+
+/* 
+*Toogle classes
+*/
+.extend {
+  height: 100vh;
+}
+.none {
+  display: none;
+}
